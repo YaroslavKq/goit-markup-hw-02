@@ -3,7 +3,7 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
   color: #434455;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -12,7 +12,7 @@ body {
   font-weight: 700;
   line-height: 1.16;
   font-size: 18px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -27,6 +27,8 @@ ul {
 .menu-nav .link {
   color: #2e2f42;
   font-weight: 500;
+  font-size: 16;
+  line-height: 1.5;
 }
 .menu-nav .link:hover {
   color: #404bbf;
@@ -43,6 +45,8 @@ ul {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
+  font-size: 16;
+  line-height: 1.5;
 }
 .link-studio:hover {
   color: #404bbf;
@@ -61,7 +65,9 @@ ul {
 .address-list .link:hover {
   color: #404bbf;
 }
-
+.address-list .link:focus {
+  color: #404bbf;
+}
 .button-section {
   background-color: #2e2f42;
 }
@@ -73,11 +79,15 @@ ul {
 }
 .button-section .button {
   font-weight: 500;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 .button-section .button:hover {
+  background-color: #404bbf;
+}
+.button-section .button:focus {
   background-color: #404bbf;
 }
 
@@ -89,6 +99,7 @@ h3 {
 }
 
 h2 {
+  color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
 }
