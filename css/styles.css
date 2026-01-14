@@ -76,7 +76,7 @@ ul {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 02em;
+  letter-spacing: 0.02em;
 }
 .button-section .button {
   font-weight: 500;
@@ -97,14 +97,14 @@ h3 {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 02em;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 02em;
+  letter-spacing: 0.02em;
 }
 
 .our-team-section {
